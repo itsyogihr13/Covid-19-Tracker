@@ -110,6 +110,7 @@ function checkValidServiceWorker(swUrl, config) {
     });
 }
 
+console.log("working");
 export function unregister() {
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.ready
